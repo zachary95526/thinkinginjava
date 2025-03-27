@@ -1,0 +1,9 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /tij-springboot-web
+spring:
+  mvc:
+    servlet:
+      # 这个配置不建议配，自定义Controller有点麻烦
+      path: / # /mvc
