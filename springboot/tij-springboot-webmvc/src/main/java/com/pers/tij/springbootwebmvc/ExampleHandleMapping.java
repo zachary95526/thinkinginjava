@@ -14,10 +14,10 @@ import java.lang.reflect.Method;
  */
 @RestController
 @RequestMapping("example")
-public class ExampleController {
+public class ExampleHandleMapping {
     private final RequestMappingHandlerMapping requestMappingHandlerMapping;
 
-    public ExampleController(RequestMappingHandlerMapping requestMappingHandlerMapping) {
+    public ExampleHandleMapping(RequestMappingHandlerMapping requestMappingHandlerMapping) {
         this.requestMappingHandlerMapping = requestMappingHandlerMapping;
     }
 
